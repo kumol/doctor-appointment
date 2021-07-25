@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.doctoradd{
+  background-image: url('../assets/doctor-shortage.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.background-doctorjoin{
+  display: inline-block;
+  background-color: #2fa6bc;
+}
+
+.no-margin{
+  margin: 0 !important;
+  padding: 0 !important;
+}

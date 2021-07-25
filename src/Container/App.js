@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
       <Index></Index>
-      <div className="container"> 
+      <div className="nomargin"> 
       <Switch >
         <Route exact path="/" component={Home}></Route>
         <Route exact path="/doctor" component={DoctorList}></Route>
