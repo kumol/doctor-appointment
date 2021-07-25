@@ -9,16 +9,16 @@ function Index() {
                     <NavLink className="nav-link" to="/">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/doctor">Doctor List</NavLink>
-                </li>
-                <li className="nav-item">
                     <NavLink className="nav-link" to="/doctor/new">Add new doctor</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink className="nav-link" to="/organization">Organization List</NavLink>
+                    <NavLink className="nav-link" to="/doctor">Doctor List</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/organization/new">Add new organization</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/organization">Organization List</NavLink>
                 </li>
             </ul>
         </div>
