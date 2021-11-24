@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  background-color: #eff2f2;
+  border-bottom: 3px solid #d0cece;
+  align-items: center;
+  position: fixed;
+}
+
+.ul2 {
+  list-style: none;
+  margin: auto !important;
+  display: inline-flex;
+}
+
+.li2 {
+  padding: 10px 20px;
+  margin-right: 20px;
+}
