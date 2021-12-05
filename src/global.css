@@ -1,0 +1,354 @@
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pt_20px {
+  padding-top: 20px;
+}
+
+.pb_20px {
+  padding-bottom: 20px;
+}
+
+.pr-20px {
+  padding-right: 20px;
+}
+
+.button-1 {
+  background-color: #5278bd;
+  border-radius: 4px;
+  font-weight: 500;
+  color: #eee;
+  border: none;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.75;
+  opacity: 0.9;
+  transition: opacity 250ms, background-color 250ms;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.button-1:hover {
+  background-color: #3a5b97;
+  border-radius: 4px;
+  opacity: 1;
+  font-weight: 500;
+  color: #eee;
+  border: none;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  line-height: 1.75;
+  transition: opacity 250ms, background-color 250ms;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button-2 {
+  border: 1px solid #5278bd;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.button-3 {
+  border: 1px solid #5278bd;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+  color: #5278bd;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button-3:hover {
+  border: 1px solid #5278bd;
+  background-color: #5278bd;
+  color: #eee;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  transition: background-color 500ms, color 250ms, border 250ms;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button-4 {
+  border: none;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.button-4:hover {
+  border: none;
+  background-color: #5278bd;
+  color: #eee;
+  transition: color 250ms, background-color 250ms;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button-5 {
+  border: none;
+  background-color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.button-5:hover {
+  border: none;
+  background-color: rgb(214, 214, 214);
+  transition: color 250ms, background-color 250ms;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  transition: 500ms;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.button-err {
+  border: 1px solid #5278bd;
+  background-color: #f0c483;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button-err:hover {
+  border: 1px solid #ff9400;
+  background-color: #ff9400;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #eee;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  transition: 500ms;
+}
+
+.button-err-1 {
+  border: none;
+  background-color: #f0c483;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button-err-1:hover {
+  border: none;
+  background-color: #ff9400;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #eee;
+  border-radius: 4px;
+  padding: 4px 10px !important;
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  transition: 500ms;
+}
+/* 
+input[type=text] {
+  border: none;
+  padding: 4px 8px;
+  border-radius: 12px;
+}
+input[type=text]:focus{
+  outline: none;
+  box-shadow: 0 0 0 2px #91d5ff;
+} */
+.form-field {
+  border: 1px solid #5278bd;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+.form-field:focus {
+  outline: none;
+  border: 1px solid #3a5b97;
+  transition: 500ms;
+  box-shadow: 0 0 0 0px #3a5b97;
+}
+
+/* Drop down option selection */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  /* //background-color: #f9f9f9; */
+  min-width: 260px;
+  padding-top: 5px;
+  z-index: 1;
+}
+
+.main {
+  border-radius: 5px;
+  margin-top: -8px;
+  padding-top: 7px;
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cursor {
+  height: 15px;
+}
+.cursor-arrow {
+  margin-left: 20px;
+  border-left: 1px solid rgb(226, 226, 226);
+  border-top: 1px solid rgb(226, 226, 226);
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  transform: rotate(45deg);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+/* 
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.search-bar {
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  background-color: #eee;
+}
+.search-field {
+  border: 2px solid #5278bd;
+  border-radius: 36px;
+  padding: 30px;
+}
+.select {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 200px;
+  background: #f1efef;
+  border: 1px solid #3a5b97;
+  padding: 10px;
+}
+
+.select:focus {
+  outline: none;
+  border: 1px solid #3a5b97;
+  background: #f1efef;
+  transition: 500ms;
+  box-shadow: 0 0 0 0px #3a5b97;
+}
+
+.select-middle {
+  width: 200px;
+  padding: 10px;
+  background: #f1efef;
+  border: 1px solid #3a5b97;
+}
+.select-middle:focus {
+  outline: none;
+  border: 1px solid #3a5b97;
+  transition: 500ms;
+  box-shadow: 0 0 0 0px #3a5b97;
+}
+
+.search-text {
+  border: 1px solid #5278bd;
+  background: #f1efef;
+  padding: 11px;
+}
+.search-text:focus {
+  outline: none;
+  border: 1px solid #3a5b97;
+  transition: 500ms;
+  box-shadow: 0 0 0 0px #3a5b97;
+}
+
+.search-button {
+  background-color: #5278bd;
+  font-weight: 500;
+  color: #eee;
+  border: none;
+  padding: 12px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  opacity: 0.9;
+  transition: opacity 250ms, background-color 250ms;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.search-button:hover {
+  cursor: pointer;
+  background-color: #3a5b97;
+  opacity: 1;
+  font-weight: 500;
+  padding: 12px;
+  color: #eee;
+  border: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  text-transform: uppercase;
+  transition: opacity 250ms, background-color 250ms;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
