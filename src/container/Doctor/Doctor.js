@@ -8,7 +8,7 @@ const Doctor = (props) => {
     // const [specification, setSpecification] = useState("");
     return(
         <div className="container">
-            <div className="search-bar">
+            <div className="search-bar row m-0">
                 <h3>
                     Find Doctor
                 </h3>
@@ -29,7 +29,7 @@ const Doctor = (props) => {
 
                 </div>
             </div>
-            <div className="doctor-list row bg-gray m-0">
+            <div className="doctor-list row m-0">
                 <div class="col-md-4 col-lg-3" style={{paddingBottom: "24px"}}>
                     <div className="profile">
                         <div className="profilepicture">
