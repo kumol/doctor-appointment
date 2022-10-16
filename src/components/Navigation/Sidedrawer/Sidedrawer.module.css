@@ -1,9 +1,9 @@
 .Sidedrawer {
-  background-color: white;
+  background-color: #5278bd;
   top: 0;
   left: 0;
   z-index: 200;
-  width: 270px;
+  width: 150px;
   max-width: 70%;
   position: fixed;
   height: 100%;
